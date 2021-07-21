@@ -7,6 +7,9 @@ import {
 } from "react-router-dom";
 
 import dataset from '../data/cars.json';
+import Ford from './ford';
+import Hyundai from './hyundai';
+import Mercedes from './mercedes';
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
@@ -19,35 +22,6 @@ import dataset from '../data/cars.json';
 
 // You can think of these components as "pages"
 // in your app.
-
-
-
-const Ford = ({data}) => {
-  return (
-    <div>
-      <p>{data.name}</p>
-      <p>{data.colour}</p>
-    </div>
-  );
-}
-
-const Hyundai = ({data}) => {
-  return (
-    <div>
-      <p>{data.name}</p>
-      <p>{data.colour}</p>
-    </div>
-  );
-}
-
-const Mercedes = ({data}) => {
-  return (
-    <div>
-      <p>{data.name}</p>
-      <p>{data.colour}</p>
-    </div>
-  );
-}
 
 const BasicExample = () => {
   return (
