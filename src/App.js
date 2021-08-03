@@ -9,8 +9,8 @@ import data from './data/cars.json';
 function App() {
   return (
   	  <Router>
-	      <Nav />
-          <Routes />
+  	      <Nav />
+	      <Routes />
       </Router>
   );
 }
