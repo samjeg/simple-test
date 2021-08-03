@@ -1,6 +1,6 @@
 import React from "react";
 
-const Mercedes = ({data}) => {
+const Car = ({data}) => {
   return (
     <div>
       <p>{data.name}</p>
@@ -9,4 +9,4 @@ const Mercedes = ({data}) => {
   );
 }
 
-export default Mercedes;
+export default Car;
